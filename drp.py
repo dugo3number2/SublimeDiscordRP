@@ -30,7 +30,7 @@ def base_activity():
         'assets': {
             'small_image': 'afk',
             'small_text': 'Idle',
-            'large_image': 'Webp.net-resizeimage',
+            'large_image': 'sublime3',
             'large_text': 'David\'s Sublime Text v%s' % (sublime.version())
         },
         'state': settings.get('start_state')
@@ -39,7 +39,7 @@ def base_activity():
         activity['assets'] = {
             'large_image': 'afk',
             'large_text': 'Idle',
-            'small_image': 'Webp.net-resizeimage',
+            'small_image': 'sublime3',
             'small_text': ' David\'s Sublime Text v%s' % (sublime.version())
         }
     return activity
